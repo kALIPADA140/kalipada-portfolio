@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kalipada Maji — student and aspiring software developer. Explore my skills, projects and learning journey in C and C++.">
+  <meta name="author" content="Kalipada Maji">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#080d18">
+  <title>Kalipada Maji | Student & Aspiring Software Developer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-mark">KM</span><span>Kalipada Maji</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Kalipada <span>Maji</span></h1>
+        <h2>Student &amp; Aspiring Software Developer</h2>
+        <p class="hero-description">I enjoy learning programming, solving problems, and turning ideas into simple, useful projects.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore My Projects</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+        <p class="availability"><span class="status-dot"></span> Always learning. Always building.</p>
+      </div>
+      <div class="profile-wrap">
+        <!-- Replace profile.jpg with your own photo in the same folder. -->
+        <img src="./profile.jpg"
+     alt="Kalipada Maji"
+     class="profile-photo">
+        <div class="profile-placeholder" aria-label="Profile photo placeholder">KM</div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="float-tag tag-c">C</span><span class="float-tag tag-cpp">C++</span>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">GET TO KNOW ME</p><h2>About <span>Me</span></h2></div>
+      <div class="about-card">
+        <p>Hi! I'm <strong>Kalipada Maji</strong>, a student and aspiring software developer. I'm currently building my programming foundation with <strong>C and C++</strong>. I enjoy understanding how things work, practising problem-solving, and learning new technologies step by step.</p>
+        <p class="quote">“Dream big, keep learning, and write code that makes a difference.”</p>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading"><p class="eyebrow">WHAT I'M LEARNING</p><h2>My <span>Skills</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-icon">C</span><h3>C Programming</h3><p>Fundamentals, arrays, functions and data structures.</p></article>
+        <article class="skill-card"><span class="skill-icon cpp">C++</span><h3>C++ Programming</h3><p>Object-oriented programming and problem-solving.</p></article>
+        <article class="skill-card"><span class="skill-icon learn">＋</span><h3>Always Learning</h3><p>Building new skills through practice and projects.</p></article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="eyebrow">MY PRACTICE WORK</p><h2>Featured <span>Projects</span></h2></div>
+      <div class="projects-grid">
+        <article class="project-card"><div class="project-number">01</div><h3>Student Record System</h3><p>A beginner-friendly program to store and display student information.</p><span class="project-tech">C / C++</span></article>
+        <article class="project-card"><div class="project-number">02</div><h3>Searching &amp; Sorting</h3><p>Practice implementations of linear search, binary search and sorting algorithms.</p><span class="project-tech">C</span></article>
+        <article class="project-card"><div class="project-number">03</div><h3>Portfolio Website</h3><p>A responsive personal website to introduce myself and share my learning journey.</p><span class="project-tech">HTML / CSS / JavaScript</span></article>
+      </div>
+      <p class="small-note">These are starter project descriptions. Replace them with your own completed projects and GitHub links.</p>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-card">
+        <div><p class="eyebrow">LET'S CONNECT</p><h2>Have a project or opportunity?</h2><p>I'd be happy to connect. Send me an email.</p></div>
+        <!-- Replace the email below with your real email address. -->
+        <a class="button primary" href="mailto:YOUR-EMAIL@example.com">Email Me ↗</a>
+      </div>
+      <div class="social-links">
+        <!-- Replace # with your real profile URLs. -->
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>© <span id="year"></span> Kalipada Maji. Built with curiosity and code.</p><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
